@@ -62,7 +62,7 @@ div.movie{
     top:4rem;
     left:4rem ;
     width:fit-content ;
-    height:20rem ;
+    height:23rem ;
     img{
         width:12rem ;
         border-radius:10px ;
@@ -72,7 +72,7 @@ div.movie{
     padding-bottom:8rem ;
     padding-right:10rem ;
     padding-left:3rem ;
-    padding-top:2rem ;
+    
     border-radius:10px ;
 }
 span{
@@ -90,6 +90,14 @@ ul{
     left:12rem ;
     color:#141414 ;
     width:fit-content ;
+}
+button.heart{
+    width:fit-content ;
+    position:relative ;
+    left:27rem ;
+    top:0.5rem ;
+    font-size:1.2rem ;
+    padding:-1rem ;
 }
 
 `

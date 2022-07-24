@@ -6,10 +6,10 @@ export function Header(){
         <Container>
             <h1>myMovies</h1>
             <ul>
-                <li>Pagina Inicial</li>
-                <li>Buscar Filmes</li>
-                <li>Favoritos</li>
-                <li>Galeria</li>
+                    <li><a href="#PaginaInicial">Pagina inicial</a></li>
+                    <li><a href="#BuscarFilme">Buscar Filmes</a></li>
+                    <li><a href="#Favoritos">Favoritos</a></li>
+                    <li><a href="#Galeria">Galeria</a></li>
             </ul>
         </Container>
     )

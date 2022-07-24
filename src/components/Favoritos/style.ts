@@ -20,8 +20,26 @@ h1{
     padding:10px 10px ;
     box-shadow: 5px 10px 5px black ;
     color:white ;
-    
 }
+
+div.movies-favoritos{
+    display:grid ;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap:1rem;
+    position:relative ;
+    margin: 5rem auto ;
+    align-items:center ;
+    width:30rem ;
+    img{
+        width:8rem ;
+
+    }
+}
+div.cart{
+    align-items:center ;
+    text-align:center ;
+}
+
 
 `
 

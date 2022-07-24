@@ -18,7 +18,7 @@ export function Galeria(){
     
     console.log(move)
     return(
-        <Container>
+        <Container id="Galeria">
             <h1>Galeria</h1>
             <Swiper
             slidesPerView={4}

@@ -1,14 +1,27 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { CartContext } from "../../context/cart";
 import { api } from "../../service/api";
 import { Container } from "./style";
+import {FiHeart} from 'react-icons/fi'
 
+interface moviesProps{
+    Title: any
+    Poster:any
+    Plot:any
+    Ratings:any
+}
 
 
 
 export function BuscarFilmes(){
 
     const [input, setInput] = useState('')
-    const [movies, setMovies] = useState<any>()
+    const [movies, setMovies] = useState<moviesProps>()
+   
+
+    const {filme, handleAdd}:any = useContext(CartContext)
+
+    
 
     async function handleSearch() {
         if(input != ''){
@@ -28,16 +41,16 @@ export function BuscarFilmes(){
             alert('Digite o nome do Filme')
         }
     }
-  
+   
 
- 
-
+    
     return(
-        <Container>
+        <Container id="BuscarFilme">
             <div className="page-search">
            
             <div className="search">
             <h1>Buscar <span className="title">Filmes</span></h1>
+            
             <input
             type="text"
             placeholder="Digite o nome do filme..."
@@ -47,11 +60,17 @@ export function BuscarFilmes(){
             <button onClick={handleSearch}>Buscar</button>
             </div>
 
+
             <div className="movie">
                 
-                    
-                <img src={movies?.Poster} alt="poster do filme pesquisado" />
+
+
+            <button onClick={()=>handleAdd(movies?.Title , movies?.Poster)} className='heart'><FiHeart/></button>
+                <img src={movies?.Poster} alt="Nenhum filme selecionado" />
+                
             <span>{movies?.Title}</span>
+
+
             <span className="descri">{movies?.Plot}</span>
              <ul>
                 <li>{movies?.Ratings[0]?.Source} {movies?.Ratings[0]?.Value}</li>
@@ -64,4 +83,5 @@ export function BuscarFilmes(){
             </div>
         </Container>
     )
+    console.log(movies?.Poster)
 }

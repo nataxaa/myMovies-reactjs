@@ -10,15 +10,15 @@
   </a>
 
   <a href="#">
-    <img alt="Languages" src="https://img.shields.io/github/languages/count/nataxaa/Websneaker?color=33A1F2&style=flat-square">
+    <img alt="Languages" src="https://img.shields.io/github/languages/count/nataxaa/myMovies-reactjs?color=33A1F2&style=flat-square">
   </a>
 
   <a href="https://github.com/nataxaa/BarberShop/commits/master">
-    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/nataxaa/Websneaker?color=33A1F2&style=flat-square">
+    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/nataxaa/myMovies-reactjs?color=33A1F2&style=flat-square">
   </a>
 
   <a href="#">
-    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/nataxaa/Websneaker?color=33A1F2&style=flat-square">
+    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/nataxaa/myMovies-reactjs?color=33A1F2&style=flat-square">
   </a>
 
 </p>
@@ -35,7 +35,7 @@ BaseURL e passando o nome filme
 ## 🌐 Preview
 
 <h1 align="center">
-    <img src="github/tenis_novo.gif" />
+    <img src="github/movies.gif" />
 </h1>
 
 ## 🚀 Tecnologias

@@ -20,6 +20,8 @@ export function Favoritos(){
             <div className="movies-favoritos">
             
 
+            
+
             {filme.map((filmes:any)=>(
                 <div className="cart">
                     <img src={filmes.imagem} alt="oii" />

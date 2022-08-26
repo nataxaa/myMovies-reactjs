@@ -28,7 +28,8 @@
 ## 💻 Projeto
 
 Projeto realizado utilizando ReactJS com TypeScript, foi utilizidado a api do IMDB movies, essa foi consumida com o axios criando uma
-BaseURL e passando o nome filme  
+BaseURL e passando o nome do filme, assim retornando os dados respectivos do filme escolhido pelo cliente, também fiz uma página que recebe 
+os seus filmes favoritos e os lista, foi utilizado context, styled-components e o axios para consumir a api.
 
 <br />
 
@@ -45,8 +46,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
-- [React Router](https://reactrouter.com/en/main)
 - [Context](https://pt-br.reactjs.org/docs/context.html)
+- [axios](https://www.devmedia.com.br/consumindo-uma-api-com-react-js-e-axios/42900) 
 
 <br />
 

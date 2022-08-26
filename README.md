@@ -2,7 +2,7 @@
   <img alt="Barber" title="#delicinha" src="github/logo.png" width="200px"/>
 </h1>
 
-# MyMovies
+<h1 align="center">MyMovie</h1>
 
 <p align="center">
   <a href="https://github.com/nataxaa">
